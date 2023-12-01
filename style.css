@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    z-index: 998;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* .header_top{
+    background-color: aliceblue;
+} */
+.header_top h2 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.header_nav {
+    width: 50vw;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+}
+.header_nav-in {
+    width: 100%;
+}
+@media screen and (max-width:787px) {
+    .header_nav {
+        display: block;
+    }
+}
+@media screen and (max-width:787px) {
+    .header_nav-in {
+        margin: 10px 0;
+    }
+}
+.nav_a-p {
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .hide-pc {
+    display: none;
+  }
+}
+.hide-pc {
+    font-size: 10px;
+}
+
+@media (max-width: 575px) {
+  .hide-sp {
+    display: none;
+  }
+}
+@media screen and (max-width:787px) {
+    .header_top h1 {
+        font-size: 20px;
+        margin-top: 5vh;
+    }
+    
+}
+/* *{
+    border: 1px solid;
+    border-color: red;
+} */
+
+#under {
+    width: 100vw;
+    height: 210vh;
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/08/13/37/texture-1504364_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media screen and (max-width:787px) {
+    #under {
+        height: 190vh;
+    }
+    
+}
+#news {
+    width: 100vw;
+    height: 100vh;
+}
+a {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+a:hover {
+    color: gray;
+    transition: 1s;
+}
+
+.container {
+    background-color: white;
+}
+
+.subtitle {
+    position: absolute;
+    font-size: 20px;
+    top: 80%;
+    left: 10%;
+    z-index: 800;
+    color: gray;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+@media screen and (max-width:787px) {
+    .subtitle {
+        top: 55%;
+        left: 20%;
+        border-bottom: solid;
+    }
+    
+}
+.wrapper {
+    position: relative;
+}
+#news {
+    position: relative;
+    padding-top: 10%;
+}
+.news_all {
+    width: 70vw;
+    height: 60vh;
+    background-color:rgba(22,121,2,0.5);
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    border-radius: 20px;
+}
+.news_all h3 span {
+    font-size: 30px;
+}
+#news h3 span {
+    font-size: 40px;
+}
+
+.news_in {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.news_text {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:787px) {
+    .news_text {
+        font-size: 15px;
+    }
+}
+.top_padding {
+    padding-top: 30px;
+}
+#persona {
+    width: 100%;
+    height: 80vh;
+    margin-top: 20vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+@media screen and (max-width:787px) {
+    #persona {
+        margin-top: 0;
+    }
+    
+}
+
+.persona_flex {
+    display: flex;
+    justify-content: space-around;
+}
+.persona_text h4 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.persona_text h5 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.persona_text p {
+    font-size: 30px;
+    color: black;
+    padding-bottom: 30px;
+}
+#fotter {
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+#fotter h4 {
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 45%;
+}
+@media screen and (max-width:787px) {
+    .persona_flex{
+        flex-direction: column
+    } 
+}
+@media screen and (max-width:787px) {
+    .persona_flex img {
+        width: 60vw;
+        padding-left: 38%;
+    }
+}
+@media screen and (max-width:787px) {
+    #fotter h4 {
+        top: 30%;
+        left: 40%;
+    }
+    
+}
+@media screen and (max-width:787px) {
+    .persona_text p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:787px) {
+    .persona_text h4 {
+        font-size: 30px;
+    }
+    
+}
+.header_leaf1{
+    width: 15vw;
+    position: absolute;
+    left: 85%;
+}
+.header_leaf2{
+    position: absolute;
+    top: 750%;
+    left: 0%;
+    width: 15vw;
+
+}
+.header_leaf3{
+    position: absolute;
+    width: 15vw;
+    top: 850%;
+    left: 85%;
+}
+.header_leaf4{
+    position: absolute;
+    top: 0%;
+    width: 15vw;
+    left: 0%;
+}
+@media screen and (max-width:787px) {
+    .header_leaf1 {
+        width: 20vw;
+        top: 0%;
+        left: 80%;
+    }
+}
+@media screen and (max-width:787px) {
+    .header_leaf2 {
+        position: absolute;
+        width: 20vw;
+        top: 870%;
+    }
+}
+@media screen and (max-width:787px) {
+    .header_leaf3{
+        position: absolute;
+        width: 20vw;
+        top: 920%;
+        left: 80%;
+    }
+}
+@media screen and (max-width:787px) {
+    .header_leaf4{
+        width: 20vw;
+        top: 0;
+        left: 0;
+    }
+}
